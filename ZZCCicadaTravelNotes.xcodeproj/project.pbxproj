@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		327D677C1ADD6CBF00D7F38C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327D677B1ADD6CBF00D7F38C /* Foundation.framework */; };
+		327D677E1ADD6CBF00D7F38C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327D677D1ADD6CBF00D7F38C /* CoreGraphics.framework */; };
+		327D67801ADD6CBF00D7F38C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327D677F1ADD6CBF00D7F38C /* UIKit.framework */; };
+		327D67861ADD6CC000D7F38C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 327D67841ADD6CC000D7F38C /* InfoPlist.strings */; };
+		327D67881ADD6CC000D7F38C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 327D67871ADD6CC000D7F38C /* main.m */; };
+		327D678C1ADD6CC000D7F38C /* ZZCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 327D678B1ADD6CC000D7F38C /* ZZCAppDelegate.m */; };
+		327D678E1ADD6CC100D7F38C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327D678D1ADD6CC100D7F38C /* Images.xcassets */; };
+		327D67951ADD6CC200D7F38C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327D67941ADD6CC200D7F38C /* XCTest.framework */; };
+		327D67961ADD6CC200D7F38C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327D677B1ADD6CBF00D7F38C /* Foundation.framework */; };
+		327D67971ADD6CC200D7F38C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327D677F1ADD6CBF00D7F38C /* UIKit.framework */; };
+		327D679F1ADD6CC300D7F38C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 327D679D1ADD6CC300D7F38C /* InfoPlist.strings */; };
+		327D67A11ADD6CC300D7F38C /* ZZCCicadaTravelNotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 327D67A01ADD6CC300D7F38C /* ZZCCicadaTravelNotesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		327D67981ADD6CC200D7F38C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 327D67701ADD6CBF00D7F38C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 327D67771ADD6CBF00D7F38C;
+			remoteInfo = ZZCCicadaTravelNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		327D67781ADD6CBF00D7F38C /* ZZCCicadaTravelNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZCCicadaTravelNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		327D677B1ADD6CBF00D7F38C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		327D677D1ADD6CBF00D7F38C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		327D677F1ADD6CBF00D7F38C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		327D67831ADD6CC000D7F38C /* ZZCCicadaTravelNotes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZZCCicadaTravelNotes-Info.plist"; sourceTree = "<group>"; };
+		327D67851ADD6CC000D7F38C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		327D67871ADD6CC000D7F38C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		327D67891ADD6CC000D7F38C /* ZZCCicadaTravelNotes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZZCCicadaTravelNotes-Prefix.pch"; sourceTree = "<group>"; };
+		327D678A1ADD6CC000D7F38C /* ZZCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCAppDelegate.h; sourceTree = "<group>"; };
+		327D678B1ADD6CC000D7F38C /* ZZCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCAppDelegate.m; sourceTree = "<group>"; };
+		327D678D1ADD6CC100D7F38C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		327D67931ADD6CC200D7F38C /* ZZCCicadaTravelNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZCCicadaTravelNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		327D67941ADD6CC200D7F38C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		327D679C1ADD6CC200D7F38C /* ZZCCicadaTravelNotesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZZCCicadaTravelNotesTests-Info.plist"; sourceTree = "<group>"; };
+		327D679E1ADD6CC300D7F38C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		327D67A01ADD6CC300D7F38C /* ZZCCicadaTravelNotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCCicadaTravelNotesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		327D67751ADD6CBF00D7F38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327D677E1ADD6CBF00D7F38C /* CoreGraphics.framework in Frameworks */,
+				327D67801ADD6CBF00D7F38C /* UIKit.framework in Frameworks */,
+				327D677C1ADD6CBF00D7F38C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327D67901ADD6CC200D7F38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327D67951ADD6CC200D7F38C /* XCTest.framework in Frameworks */,
+				327D67971ADD6CC200D7F38C /* UIKit.framework in Frameworks */,
+				327D67961ADD6CC200D7F38C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		327D676F1ADD6CBF00D7F38C = {
+			isa = PBXGroup;
+			children = (
+				327D67811ADD6CC000D7F38C /* ZZCCicadaTravelNotes */,
+				327D679A1ADD6CC200D7F38C /* ZZCCicadaTravelNotesTests */,
+				327D677A1ADD6CBF00D7F38C /* Frameworks */,
+				327D67791ADD6CBF00D7F38C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		327D67791ADD6CBF00D7F38C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				327D67781ADD6CBF00D7F38C /* ZZCCicadaTravelNotes.app */,
+				327D67931ADD6CC200D7F38C /* ZZCCicadaTravelNotesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		327D677A1ADD6CBF00D7F38C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				327D677B1ADD6CBF00D7F38C /* Foundation.framework */,
+				327D677D1ADD6CBF00D7F38C /* CoreGraphics.framework */,
+				327D677F1ADD6CBF00D7F38C /* UIKit.framework */,
+				327D67941ADD6CC200D7F38C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		327D67811ADD6CC000D7F38C /* ZZCCicadaTravelNotes */ = {
+			isa = PBXGroup;
+			children = (
+				327D678A1ADD6CC000D7F38C /* ZZCAppDelegate.h */,
+				327D678B1ADD6CC000D7F38C /* ZZCAppDelegate.m */,
+				327D678D1ADD6CC100D7F38C /* Images.xcassets */,
+				327D67821ADD6CC000D7F38C /* Supporting Files */,
+			);
+			path = ZZCCicadaTravelNotes;
+			sourceTree = "<group>";
+		};
+		327D67821ADD6CC000D7F38C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				327D67831ADD6CC000D7F38C /* ZZCCicadaTravelNotes-Info.plist */,
+				327D67841ADD6CC000D7F38C /* InfoPlist.strings */,
+				327D67871ADD6CC000D7F38C /* main.m */,
+				327D67891ADD6CC000D7F38C /* ZZCCicadaTravelNotes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		327D679A1ADD6CC200D7F38C /* ZZCCicadaTravelNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				327D67A01ADD6CC300D7F38C /* ZZCCicadaTravelNotesTests.m */,
+				327D679B1ADD6CC200D7F38C /* Supporting Files */,
+			);
+			path = ZZCCicadaTravelNotesTests;
+			sourceTree = "<group>";
+		};
+		327D679B1ADD6CC200D7F38C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				327D679C1ADD6CC200D7F38C /* ZZCCicadaTravelNotesTests-Info.plist */,
+				327D679D1ADD6CC300D7F38C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		327D67771ADD6CBF00D7F38C /* ZZCCicadaTravelNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327D67A41ADD6CC300D7F38C /* Build configuration list for PBXNativeTarget "ZZCCicadaTravelNotes" */;
+			buildPhases = (
+				327D67741ADD6CBF00D7F38C /* Sources */,
+				327D67751ADD6CBF00D7F38C /* Frameworks */,
+				327D67761ADD6CBF00D7F38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZCCicadaTravelNotes;
+			productName = ZZCCicadaTravelNotes;
+			productReference = 327D67781ADD6CBF00D7F38C /* ZZCCicadaTravelNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		327D67921ADD6CC200D7F38C /* ZZCCicadaTravelNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327D67A71ADD6CC300D7F38C /* Build configuration list for PBXNativeTarget "ZZCCicadaTravelNotesTests" */;
+			buildPhases = (
+				327D678F1ADD6CC200D7F38C /* Sources */,
+				327D67901ADD6CC200D7F38C /* Frameworks */,
+				327D67911ADD6CC200D7F38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				327D67991ADD6CC200D7F38C /* PBXTargetDependency */,
+			);
+			name = ZZCCicadaTravelNotesTests;
+			productName = ZZCCicadaTravelNotesTests;
+			productReference = 327D67931ADD6CC200D7F38C /* ZZCCicadaTravelNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		327D67701ADD6CBF00D7F38C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZZC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					327D67921ADD6CC200D7F38C = {
+						TestTargetID = 327D67771ADD6CBF00D7F38C;
+					};
+				};
+			};
+			buildConfigurationList = 327D67731ADD6CBF00D7F38C /* Build configuration list for PBXProject "ZZCCicadaTravelNotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 327D676F1ADD6CBF00D7F38C;
+			productRefGroup = 327D67791ADD6CBF00D7F38C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				327D67771ADD6CBF00D7F38C /* ZZCCicadaTravelNotes */,
+				327D67921ADD6CC200D7F38C /* ZZCCicadaTravelNotesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		327D67761ADD6CBF00D7F38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327D67861ADD6CC000D7F38C /* InfoPlist.strings in Resources */,
+				327D678E1ADD6CC100D7F38C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327D67911ADD6CC200D7F38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327D679F1ADD6CC300D7F38C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		327D67741ADD6CBF00D7F38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327D678C1ADD6CC000D7F38C /* ZZCAppDelegate.m in Sources */,
+				327D67881ADD6CC000D7F38C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327D678F1ADD6CC200D7F38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327D67A11ADD6CC300D7F38C /* ZZCCicadaTravelNotesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		327D67991ADD6CC200D7F38C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 327D67771ADD6CBF00D7F38C /* ZZCCicadaTravelNotes */;
+			targetProxy = 327D67981ADD6CC200D7F38C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		327D67841ADD6CC000D7F38C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				327D67851ADD6CC000D7F38C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		327D679D1ADD6CC300D7F38C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				327D679E1ADD6CC300D7F38C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		327D67A21ADD6CC300D7F38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		327D67A31ADD6CC300D7F38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		327D67A51ADD6CC300D7F38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZZCCicadaTravelNotes/ZZCCicadaTravelNotes-Prefix.pch";
+				INFOPLIST_FILE = "ZZCCicadaTravelNotes/ZZCCicadaTravelNotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		327D67A61ADD6CC300D7F38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZZCCicadaTravelNotes/ZZCCicadaTravelNotes-Prefix.pch";
+				INFOPLIST_FILE = "ZZCCicadaTravelNotes/ZZCCicadaTravelNotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		327D67A81ADD6CC300D7F38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZZCCicadaTravelNotes.app/ZZCCicadaTravelNotes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZZCCicadaTravelNotes/ZZCCicadaTravelNotes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZZCCicadaTravelNotesTests/ZZCCicadaTravelNotesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		327D67A91ADD6CC300D7F38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZZCCicadaTravelNotes.app/ZZCCicadaTravelNotes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZZCCicadaTravelNotes/ZZCCicadaTravelNotes-Prefix.pch";
+				INFOPLIST_FILE = "ZZCCicadaTravelNotesTests/ZZCCicadaTravelNotesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		327D67731ADD6CBF00D7F38C /* Build configuration list for PBXProject "ZZCCicadaTravelNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327D67A21ADD6CC300D7F38C /* Debug */,
+				327D67A31ADD6CC300D7F38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		327D67A41ADD6CC300D7F38C /* Build configuration list for PBXNativeTarget "ZZCCicadaTravelNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327D67A51ADD6CC300D7F38C /* Debug */,
+				327D67A61ADD6CC300D7F38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		327D67A71ADD6CC300D7F38C /* Build configuration list for PBXNativeTarget "ZZCCicadaTravelNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327D67A81ADD6CC300D7F38C /* Debug */,
+				327D67A91ADD6CC300D7F38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 327D67701ADD6CBF00D7F38C /* Project object */;
+}
