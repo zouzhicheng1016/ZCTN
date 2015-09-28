@@ -7,6 +7,14 @@
 //
 
 #import "ZZCAppDelegate.h"
+#import "ZZCTabBarViewController.h"
+
+#import "UMSocial.h"
+#import "UMSocialQQHandler.h"
+
+#define UmengAppkey @"5540965167e58ec7f4002714"
+
+//#import "ZZCHomeTripsDetailViewController.h"
 
 @implementation ZZCAppDelegate
 
@@ -16,6 +24,22 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+//    self.window.rootViewController = [[ZZCHomeTripsDetailViewController alloc] init];
+    self.window.rootViewController = [[ZZCTabBarViewController alloc] init];
+
+    //设置友盟Appkey
+    [UMSocialData setAppKey:UmengAppkey];
+
+    
+    //设置手机QQ的AppId，指定你的分享url，若传nil，将使用友盟的网址
+    [UMSocialQQHandler setQQWithAppId:@"100424468" appKey:@"c7394704798a158208a74ab60104f0ba" url:@"http://www.umeng.com/social"];
+    
+    //如果你要支持不同的屏幕方向，需要这样设置，否则在iPhone只支持一个竖屏方向
+    [UMSocialConfig setSupportedInterfaceOrientations:UIInterfaceOrientationMaskAll];
+    
+    [UMSocialData defaultData].extConfig.qqData.qqMessageType = UMSocialQQMessageTypeImage; //设置QQ分享纯图片，默认分享图文消息
+    [UMSocialData defaultData].extConfig.wechatSessionData.wxMessageType = UMSocialWXMessageTypeImage;  //设置微信好友分享纯图片
+    [UMSocialData defaultData].extConfig.wechatTimelineData.wxMessageType = UMSocialWXMessageTypeImage;  //设置微信朋友圈分享纯图片
     return YES;
 }
 

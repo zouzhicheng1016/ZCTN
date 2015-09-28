@@ -1,0 +1,23 @@
+//
+//  ZZCNotes.h
+//  ZZCCicadaTravelNotes
+//
+//  Created by zzc on 15-4-15.
+//  Copyright (c) 2015年 zzc. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "ZZCPhoto.h"
+#import "ZZCVideo.h"
+@interface ZZCNotes : NSObject
+
+@property (nonatomic,copy) NSString *idNum; // 9138803,
+@property (nonatomic,copy) NSString *row_order; // 0,
+@property (nonatomic,copy) NSString *layout; // full,
+@property (nonatomic,copy) NSString *col; // 0,
+@property (nonatomic,copy) NSString *description; // 这次长达一个月的肯尼亚之旅，体验了两种完全不同的生活。前三周是彻底融入当地普通人、体验纯正非洲生活的义工，最后一周以一个观光客的姿态纯玩儿、欣赏非洲这片神奇的土地。\r\n微博@侯哭苦很笑恬\r\nins@kukuhou\r\n\r\n【关于照片】\r\n手机iPhone、相机Nikon D700（镜头24-70和70-200）、GoPro。\r\n手机主要平时拍，尤其义工时住的地方和工作的地方都非常不适合举着大相机，不方便也不安全，所以几乎都是用手机记录，app：Snapseed+VscoCam。\r\n相机主要在旅游时用，比如去Maasai Mara拍动物，我准备了70-200小钢炮，事实上！完全！不够远！很多时候都只能勉强拍到，或者需要后期通过剪裁，后悔没有搞个增距镜（我也不会使…），就不冒充专业人士了，真想拍动物请带300甚至500起……24-70就是一般旅游头。拍完我会通过相机套件（苹果店或者官网买）把照片导到iPad里，挑几张及时修，随时发朋友圈微博之类。回来再统一用电脑后期，软件：Lightroom+Photoshop。\r\nGoPro：本意是随时自拍视频记录自己这趟的，不过……只坚持了一天= =之后主要用来记录平时+与小伙伴们自拍，GoPro真的很方便！！随时连手机发社交网络，回来抽空再把视频整理下,
+@property (nonatomic,copy) NSString *updated_at; // 1424868992
+@property (nonatomic) ZZCPhoto *photo;
+@property (nonatomic) ZZCVideo *video;
+
+@end
