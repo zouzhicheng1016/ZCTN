@@ -26,7 +26,9 @@
     [self.window makeKeyAndVisible];
 //    self.window.rootViewController = [[ZZCHomeTripsDetailViewController alloc] init];
     self.window.rootViewController = [[ZZCTabBarViewController alloc] init];
-
+//状态栏 字体颜色 更改为 白色
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
     //设置友盟Appkey
     [UMSocialData setAppKey:UmengAppkey];
 
